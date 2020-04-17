@@ -1,0 +1,8 @@
+gatsby-starter-bootstrap/node_modules/
+gatsby-starter-bootstrap/public
+gatsby-starter-bootstrap/.gatsby-context.js
+gatsby-starter-bootstrap/.DS_Store
+gatsby-starter-bootstrap/.intermediate-representation/
+gatsby-starter-bootstrap/.cache/
+gatsby-starter-bootstrap/.vscode/
+.idea/
