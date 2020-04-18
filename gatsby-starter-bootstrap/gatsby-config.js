@@ -94,5 +94,18 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GitHub',
+        fieldName: 'github',
+        url: 'https://api.github.com/graphql',
+        headers: {
+          Authorization: `Bearer 5d4ca3f6817b4e6ed7f5267b06a575e77ececff7`,
+        },
+        // Additional options to pass to node-fetch
+        fetchOptions: {},
+      },
+    },
   ],
 }

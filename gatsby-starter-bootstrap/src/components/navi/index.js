@@ -29,7 +29,18 @@ class Navi extends React.Component {
                 }
               >
                 <Link to="/profile/" className="nav-link">
-                  Profile
+                  Mon profile
+                </Link>
+              </li>
+              <li
+                className={
+                  location.pathname === '/github/'
+                    ? 'nav-item active'
+                    : 'nav-item'
+                }
+              >
+                <Link to="/github/" className="nav-link">
+                  Mes activités github
                 </Link>
               </li>
             </ul>

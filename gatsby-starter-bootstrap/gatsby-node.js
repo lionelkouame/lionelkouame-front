@@ -2,6 +2,10 @@ const each = require('lodash/each')
 const path = require('path')
 const PostTemplate = path.resolve('./src/templates/index.js')
 
+require('dotenv').config({
+  path: `.env.development`,
+})
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
